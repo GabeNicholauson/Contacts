@@ -12,17 +12,22 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-        <script src="assets/script/index.js" defer></script>
+        <script src="assets/script/index.js" type="module"></script>
         <title>Contacts</title>
     </head>
     <body>
         <main>
             <div class="container">
                 <h2>My Contacts</h2> 
-                <form>
+                <form onkeydown="return event.key != 'Enter';">
                     <input type="text" placeholder="Contact info (name, city, email)">
                     <input type="button" value="Add">
                 </form>
+                <p class="validate"></p>
+
+                <section class="grid-container">
+                    
+                </section>
             </div>
         </main>
     </body>
