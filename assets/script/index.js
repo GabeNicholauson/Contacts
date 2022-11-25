@@ -1,6 +1,6 @@
 'use strict';
 
-import Contact from './classes.js';
+import Contact from './Contact.js';
 
 const contactInfo = document.querySelector('.contact-info');
 const addContact = document.querySelector('.add-contact');
