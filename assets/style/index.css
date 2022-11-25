@@ -45,7 +45,6 @@ input {
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, 300px);
-    grid-template-rows: repeat(auto-fit, auto-fit);
     place-content: center;
     gap: 20px;
     padding-top: 20px;
@@ -61,6 +60,11 @@ input {
 
 .contact p {
     color: #fff;
+}
+
+.contact:hover {
+    border: 1px solid #ff0000;
+    cursor: pointer;
 }
 
 
