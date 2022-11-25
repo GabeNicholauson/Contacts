@@ -1,0 +1,24 @@
+{
+  "name": "gabriel_nicholauson_oop_assignment_03",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabeNicholauson/Contacts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabeNicholauson/Contacts/issues"
+  },
+  "homepage": "https://github.com/GabeNicholauson/Contacts#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
