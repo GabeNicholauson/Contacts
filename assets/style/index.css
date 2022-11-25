@@ -18,12 +18,7 @@ form {
 input[type='text'] {
     width: 400px;
     height: 40px;
-    padding: 10px;
     background-color: #606060;
-}
-
-input[type='text'], input[type='text']::placeholder {
-    color: #d6d6d6;
 }
 
 input[type='button'] {
@@ -31,12 +26,6 @@ input[type='button'] {
     margin-left: 20px;
     background-color: #439f43;
 }
-
-input {
-    border-radius: 5px;
-    font-size: 15px;
-}
-
 
 /***********************
     Contact grid
@@ -52,10 +41,8 @@ input {
 
 .contact {
     width: 300px;
-    height: auto;
+    height: max-content;
     background-color: #606060;
-    border-radius: 5px;
-    padding: 10px;
 }
 
 .contact p {
@@ -80,3 +67,18 @@ h2, .validate {
     text-align: center;
 }
 
+input[type='text'], .contact {
+    padding: 10px;
+}
+
+input, .contact {
+    border-radius: 5px;
+}
+
+input, p {
+    font-size: 15px;
+}
+
+input[type='text'], input[type='text']::placeholder {
+    color: #d6d6d6;
+}
